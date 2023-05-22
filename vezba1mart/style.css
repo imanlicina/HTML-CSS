@@ -1,0 +1,20 @@
+form {
+  height: 60vh;
+  width: 30vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.group {
+  display: flex;
+  flex-direction: column;
+  color: rgb(62, 54, 54);
+}
+input {
+  height: 10vh;
+  background-color: rgb(213, 240, 241);
+}
+.dugme {
+  border: none;
+  border-radius: 10%;
+}

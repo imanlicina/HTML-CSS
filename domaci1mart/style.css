@@ -1,0 +1,47 @@
+.sve {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: #eaf2f8;
+}
+form {
+  width: 45vw;
+  height: 65vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #aeb6bf;
+  border: 2px #85929e solid;
+  border-radius: 5%;
+}
+.naslov {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  font-size: larger;
+}
+h3 {
+  font-style: italic;
+}
+.oboje {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.mail {
+  display: flex;
+  flex-direction: column;
+  padding: 35px;
+  justify-content: space-evenly;
+  width: 40%;
+  height: 70%;
+}
+input {
+  height: 30px;
+}
+img {
+  width: 90%;
+  height: 70%;
+  padding-top: 20px;
+}

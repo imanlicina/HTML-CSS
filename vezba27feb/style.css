@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100vh;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.tekst {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+}
+p {
+  text-align: center;
+  margin-top: 10px;
+}
+.kartice {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.card {
+  background-color: lightcoral;
+  width: 40%;
+  margin: 10px;
+  padding: 20px;
+}
+button {
+  padding: 10px 20px;
+  border: none;
+  background-color: lightcoral;
+  color: aliceblue;
+  font-size: 20px;
+}
+button:hover {
+  background-color: burlywood;
+}

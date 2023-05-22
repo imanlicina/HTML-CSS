@@ -1,0 +1,51 @@
+.najveca {
+  width: 55%;
+  height: 30%;
+  position: relative;
+  background-color: cadetblue;
+  z-index: -1;
+}
+.prva {
+  font-size: small;
+  background-color: crimson;
+  position: absolute;
+  left: 1%;
+  width: 20%;
+  top: 2%;
+  height: 95%;
+}
+.druga {
+  font-size: small;
+  background-color: blueviolet;
+  position: absolute;
+  left: 27%;
+  width: 20%;
+  height: 95%;
+  top: 2%;
+}
+.treca {
+  font-size: small;
+  background-color: blue;
+  position: absolute;
+  left: 53%;
+  width: 20%;
+  height: 95%;
+  top: 2%;
+}
+.cetvrta {
+  font-size: small;
+  background-color: deeppink;
+  position: absolute;
+  left: 79%;
+  width: 20%;
+  height: 95%;
+  top: 2%;
+}
+/*.nova {
+  z-index: 2;
+  background-color: black;
+  width: 60%;
+  height: 20%;
+  position: absolute;
+  top: 150px;
+}

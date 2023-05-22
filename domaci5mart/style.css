@@ -1,0 +1,7 @@
+.form {
+  width: 30%;
+  height: 90%;
+  position: absolute;
+  z-index: 2;
+  margin-top: 20%;
+}

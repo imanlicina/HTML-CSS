@@ -1,0 +1,41 @@
+.conteiner {
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  height: 100vh;
+  justify-content: space-around;
+  margin-top: 5%;
+  flex-wrap: wrap;
+}
+.deo {
+  width: 40%;
+}
+.prvi {
+  border: none;
+  border-radius: 5%;
+  background-color: rgb(79, 79, 228);
+  color: aliceblue;
+}
+.drugi {
+  border: none;
+  background-color: aliceblue;
+}
+@media (max-width: 800px) {
+  .conteiner {
+    width: 100vw;
+    margin-top: 3%;
+    height: 100px;
+  }
+  .deo {
+    width: 100vw;
+    height: 50vh;
+  }
+  p {
+    font-size: 25px;
+    margin-bottom: 4%;
+  }
+  .prvi {
+    width: 30%;
+    padding: 3%;
+  }
+}

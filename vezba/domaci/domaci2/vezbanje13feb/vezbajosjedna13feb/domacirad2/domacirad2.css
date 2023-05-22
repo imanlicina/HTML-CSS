@@ -1,0 +1,35 @@
+div {
+  width: 40%;
+  height: 40%;
+  background-color: lightcoral;
+  padding: 1%;
+  float: left;
+  margin: 2%;
+  padding-top: 1%;
+}
+.cat {
+  color: darkblue;
+}
+.dugme {
+  background-color: lightcoral;
+  border: none;
+}
+.dugme:hover {
+  color: blueviolet;
+  background-color: mediumpurple;
+}
+.slika {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  float: left;
+}
+div:hover {
+  background-color: mediumpurple;
+}
+.ime {
+  text-align: center;
+}
+.imee {
+  text-align: center;
+}

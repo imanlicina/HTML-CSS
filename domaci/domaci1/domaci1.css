@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+.navigacija {
+  background-color: darkcyan;
+  width: 100%;
+  height: 100px;
+  display: inline-block;
+  padding-top: 20px;
+}
+.reci {
+  width: 40%;
+  color: white;
+  display: inline-block;
+  font-size: 30px;
+  padding-left: 20px;
+}
+
+.lista {
+  padding-left: 250px;
+  width: 50%;
+  display: inline-block;
+  list-style-type: none;
+}
+li {
+  display: inline;
+  color: white;
+  padding: 20px;
+}
+li:hover {
+  background-color: lightskyblue;
+  color: aliceblue;
+}
+/* backgroung-image: url()

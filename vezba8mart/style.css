@@ -1,0 +1,39 @@
+.conteiner {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  flex-wrap: nowrap;
+  background-color: rgb(192, 186, 176);
+}
+.card {
+  margin-top: 5%;
+  background-color: rgb(126, 126, 145);
+  width: 50%;
+  height: 50%;
+  margin: 5%;
+}
+.gornje {
+  margin-top: 0;
+  height: 50%;
+  width: 100%;
+  background-color: rgb(59, 165, 130);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+button {
+  background-color: rgb(192, 186, 176);
+  border: none;
+}
+@media (max-width: 825px) {
+  .conteiner {
+    flex-direction: column;
+  }
+  .card {
+    width: 90%;
+    height: 50%;
+  }
+}

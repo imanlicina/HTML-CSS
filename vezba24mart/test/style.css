@@ -1,0 +1,172 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+.container {
+  width: 98.9vw;
+  height: 100vh;
+}
+.header {
+  width: 100%;
+  height: 10%;
+  display: flex;
+  border-bottom: 2px solid grey;
+}
+.name-nav {
+  flex: 0.6;
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  padding-left: 5%;
+  font-weight: 200;
+}
+.nav {
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+.name {
+  font-weight: 300;
+  color: #47536e;
+}
+ul {
+  display: flex;
+  height: 80%;
+  width: 100%;
+  align-items: center;
+  justify-content: space-evenly;
+  list-style: none;
+  color: #47536e;
+}
+select {
+  color: #47536e;
+  border: none;
+}
+.btn-nav {
+  width: 10%;
+  height: 60%;
+  border: none;
+  border-radius: 50px;
+  color: white;
+  background-color: #5777ba;
+}
+.middle {
+  width: 100%;
+  height: 80%;
+  display: flex;
+}
+.slika {
+  flex: 0.7;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+.pic {
+  width: 80%;
+}
+.text-middle {
+  flex: 1;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+}
+.text-wrapper {
+  width: 90%;
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.text-big {
+  height: 10%;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 30px;
+  color: #2a2a2a;
+}
+.par-middle1 {
+  font-size: 20px;
+  color: #404040;
+}
+.par-icon {
+  font-size: 20px;
+  color: #404040;
+}
+.par-down {
+  font-size: 20px;
+  color: #404040;
+}
+.footer {
+  width: 100%;
+  height: 10%;
+  background-color: red;
+}
+.footer {
+  height: 10vh;
+  width: 100%;
+  background-color: rgb(255, 216, 229);
+  padding: 15px;
+  display: flex;
+  position: absolute;
+}
+.left-footer {
+  flex: 1;
+  font-weight: 300;
+}
+.right-footer {
+  flex: 1;
+
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  position: relative;
+}
+.media {
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  right: 100px;
+  margin-left: 20%;
+  width: 25%;
+  height: 75%;
+  font-size: 30px;
+  color: #394151;
+}
+@media (max-width: 850px) {
+  .container {
+    height: 200vh;
+  }
+  .name {
+    font-size: 60px;
+  }
+  .text-middle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .par-middle1 {
+    font-size: 30px;
+  }
+  .text-big {
+    font-size: 40px;
+  }
+  .par-icon {
+    font-size: 30px;
+  }
+  .nav {
+    display: none;
+  }
+  .middle {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .slika {
+    display: flex;
+    justify-content: center;
+  }
+  .pic {
+    width: 90%;
+  }
+}

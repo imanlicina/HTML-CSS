@@ -1,0 +1,31 @@
+.glavni {
+  width: 500px;
+  height: 300px;
+  position: relative;
+  background-color: darkgrey;
+}
+.logo {
+  top: 5px;
+  left: 5px;
+  width: 250px;
+  background-color: hotpink;
+  position: absolute;
+  height: 115px;
+}
+.menu {
+  position: absolute;
+  background-color: darkslategray;
+  right: 15px;
+  top: 15px;
+  width: 100px;
+  height: 30px;
+  text-align: center;
+}
+.top {
+  position: absolute;
+  background-color: aquamarine;
+  left: 50px;
+  width: 400px;
+  height: 40px;
+  bottom: 30;
+}

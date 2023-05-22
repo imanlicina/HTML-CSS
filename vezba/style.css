@@ -1,0 +1,13 @@
+div{
+    color: deeppink;
+    background-color: aqua;
+    font: size 50px;
+    border:2px black solid ;
+    border-radius: 10px;
+    width: 400px;
+    height: 150px;
+    margin: 50px;
+    text-align: center;
+    padding: 50px;
+}
+

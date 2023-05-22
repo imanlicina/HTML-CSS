@@ -1,0 +1,70 @@
+.sve {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20vh;
+}
+.card {
+  width: 1000px;
+  height: 4400px0px;
+  background-color: aqua;
+  padding: 10px;
+  position: relative;
+}
+p {
+  animation-name: slova;
+  animation-duration: 4s;
+}
+
+/* transform: translate(200px,200px);-margina*/
+/*transform: rotate(90deg);*/
+/*position: relative;
+  animation-name: boje;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease;
+}
+.card:hover {
+  /*width: 400px;
+    height: 400px;
+    transform: translate(200px,200px);
+}*/
+/*@keyframes vezba {
+  form {
+    background-color: palevioletred;
+  }
+  to {
+    background-color: blueviolet;
+  }
+}*/
+/*@keyframes boje {
+  0% {
+    background-color: black;
+    top: 0;
+    left: 0;
+  }
+  25% {
+    background-color: chocolate;
+    top: 0;
+    left: 500px;
+  }
+  50% {
+    background-color: palevioletred;
+  }
+  75% {
+    background-color: crimson;
+  }
+  100% {
+    background-color: black;
+  }
+}*/
+@keyframes slova {
+  form {
+    padding-right: 100%;
+    width: 300%;
+  }
+  to {
+    padding-right: 2%;
+    width: 100%;
+  }
+}
